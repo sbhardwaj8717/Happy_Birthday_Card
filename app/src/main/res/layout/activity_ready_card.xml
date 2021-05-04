@@ -18,10 +18,9 @@
         android:scaleType="centerCrop"/>
 
     <TextView
-        android:id="@+id/admiKaNamm"
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/namm_likh_yha_jiska_bday_card_banana_hia"
         android:textColor="#FF0000"
         android:textStyle="bold|italic"
         android:fontFamily="cursive"

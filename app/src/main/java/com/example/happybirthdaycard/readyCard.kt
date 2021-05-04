@@ -1,14 +1,11 @@
 package com.example.happybirthdaycard
 
 import android.content.Intent
-import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.core.content.ContextCompat
 import kotlinx.android.synthetic.main.activity_ready_card.*
-import java.util.jar.Manifest
 
 class readyCard : AppCompatActivity() {
 
@@ -21,7 +18,7 @@ class readyCard : AppCompatActivity() {
         setContentView(R.layout.activity_ready_card)
 
         val getName = intent.getStringExtra(Name_Extra)
-        admiKaNamm.setText("Happy Birthday $getName ..!")
+        name.setText("Happy Birthday \n$getName ..!")
     }
 
     fun saveToGallary(view: View) {
@@ -32,10 +29,10 @@ class readyCard : AppCompatActivity() {
         share.putExtra(Intent.EXTRA_TEXT, "bhaii cake dekio kssa lgra")
         val chooser = Intent.createChooser(share, imageView.toString())
         startActivity(chooser)
-        Toast.makeText(this,"bhaii abii yeh kam ni krra button...",Toast.LENGTH_LONG).show()
-        Toast.makeText(this,"thode time bad jb mere se aa jayega krna tb kr duga pakka",Toast.LENGTH_LONG).show()
-        Toast.makeText(this,"or hann bhai ek batt or...",Toast.LENGTH_LONG).show()
-        Toast.makeText(this,"press back to go to home screen. Thank you",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Bro this button is not currently working..\uD83D\uDE05",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"Surely I will fix it shortly when I'll learn how to fix it...",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"And also one more thing bro...",Toast.LENGTH_LONG).show()
+        Toast.makeText(this,"press back to go to home screen. Thank you\uD83D\uDE42",Toast.LENGTH_LONG).show()
     }
 
 }

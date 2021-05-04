@@ -28,7 +28,7 @@
         android:layout_width="228dp"
         android:layout_height="59dp"
         android:background="#FFFFFF"
-        android:hint="@string/namm_likh_le_yha"
+        android:hint="@string/enter_name"
         android:textColorHint="#B2000000"
         android:inputType="textPersonName"
         android:textColor="#090004"
@@ -47,7 +47,7 @@
 
         android:onClick="btnDbGya"
         android:padding="-2dp"
-        android:text="@string/yeh_button_dba"
+        android:text="@string/bake_the_cake"
         android:textColor="#fff"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
